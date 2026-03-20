@@ -1,0 +1,156 @@
+html_content = """
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>O Portal Foi Aberto</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif, Arial;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .wrapper {
+            max-width: 500px;
+            width: 90%;
+            padding: 40px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 10px;
+            color: #a855f7;
+            text-shadow: 0 0 20px rgba(168, 85, 247, 0.4);
+        }
+        .description {
+            font-size: 1rem;
+            color: #a1a1aa;
+            line-height: 1.5;
+            margin-bottom: 30px;
+        }
+        .insta-link {
+            display: inline-flex;
+            align-items: center;
+            background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+            padding: 12px 25px;
+            border-radius: 12px;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 35px;
+        }
+        .notice {
+            background: rgba(168, 85, 247, 0.1);
+            border: 1px dashed #a855f7;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+            color: #e9d5ff;
+        }
+        .card {
+            background: #121212;
+            border: 1px solid #27272a;
+            border-radius: 16px;
+            padding: 20px;
+            margin-bottom: 20px;
+            transition: border-color 0.3s;
+        }
+        .card:hover {
+            border-color: #a855f7;
+        }
+        .card h3 {
+            margin: 0 0 5px 0;
+            font-size: 1.2rem;
+        }
+        .card p {
+            color: #22c55e;
+            font-weight: 600;
+            margin-bottom: 15px;
+            font-size: 0.9rem;
+        }
+        .btn-link {
+            display: block;
+            background: #a855f7;
+            color: white;
+            text-decoration: none;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .streaming-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #27272a;
+        }
+        .btn-stream {
+            background: #27272a;
+            color: #fafafa;
+            display: block;
+            padding: 15px;
+            text-decoration: none;
+            border-radius: 8px;
+            margin-top: 10px;
+            font-size: 0.9rem;
+        }
+        footer {
+            margin-top: 50px;
+            color: #52525b;
+            font-size: 0.75rem;
+        }
+    </style>
+</head>
+<body>
+    <div class='wrapper'>
+        <h1>🌑 O Portal Foi Aberto</h1>
+        <p class='description'>Análises detalhadas das plataformas mais estáveis e seguras de 2026. Conteúdo exclusivo para membros da comunidade.</p>
+
+        <a href='https://www.instagram.com/luiiireis?igsh=bzhvNmJ1Ym1rc3Fv' class='insta-link' target='_blank'>
+            @luiiisreis no Instagram
+        </a>
+
+        <div class='notice'>
+            ✨ <strong>PLATAFORMAS NOVAS</strong><br>
+            Vantagem em jogos da WG com partidas de no máximo R$ 0,10!
+        </div>
+
+        <div class='card'>
+            <h3>BR567.COM</h3>
+            <p>Jogos de R$ 0,10</p>
+            <a href='https://br6785.com/?id=902844398' class='btn-link' target='_blank'>Entrar no Portal</a>
+        </div>
+
+        <div class='card'>
+            <h3>121bet</h3>
+            <p>Jogos de R$ 0,10</p>
+            <a href='https://121bet06.com/?id=350169866' class='btn-link' target='_blank'>Entrar no Portal</a>
+        </div>
+
+        <div class='card'>
+            <h3>289win</h3>
+            <p>Jogos de R$ 0,10</p>
+            <a href='https://289win11.com/?id=213223270' class='btn-link' target='_blank'>Entrar no Portal</a>
+        </div>
+
+        <div class='streaming-section'>
+            <span style='color: #a1a1aa;'>Confira também:</span>
+            <a href='https://luiiisreis.github.io/streaminggratuita/?utm_medium=social&utm_source=heylink.me' class='btn-stream' target='_blank'>
+                📺 Acessar Streaming Gratuito
+            </a>
+        </div>
+
+        <footer>
+            © 2026 O Portal Foi Aberto. Conteúdo para maiores de 18 anos.
+        </footer>
+    </div>
+</body>
+</html>
+"""
+display(HTML(html_content))
